@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- /bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- /bootstrap icons https://blog.getbootstrap.com/2021/01/07/bootstrap-icons-1-3-0/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mindful Product</title>
+</head>
+
+<body>
+
+    <!-- /Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Mindful Product</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#expertise" class="nav-link">My expertise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h2>Eduardo Mignot</h2>
+                    <h1><span class="text-warning">Product </span>Consultant</h1>
+                    <p class="lead text-sm-smart my-5">
+                        I am a Lead Product Manager with over 10+ years of experience managing complex projects in
+                        high-growth companies. Find out how I can help your company build great product, train your
+                        employees to become better Product Manager or coach you to transition in Product Management.
+                    </p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+                        Get in touch
+                    </button>
+                </div>
+
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/undraw_developer_activity.svg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-md-flex justify-content-between-align-items-center">
+                    <div class="col-sm">
+                        <h3 class="mb-3 mb-md-0">Sign-up to my Newsletter</h3>
+                        <div class="p-sm p-1">Get monthly insights about the latest in the Product space.</div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter your email"
+                                aria-label="Recipient's email" aria-describedby="button-addon2">
+                            <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My expertise -->
+
+    <section id="expertise" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/undraw_product_iteration.svg" class="img-fluid" alt="Certified Man">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Hello, I am Eduardo!</h2>
+                    <p>I am a Product Manager with 10+ years of generalist Product experience in startups and scale-ups
+                        in
+                        Europe.</p>
+                    <p>I started my Product career in London after getting a MsC in Finance and a Master in Business
+                        Administration .
+                        I gained my first practical experience in the Tech-world in two London startups before moving to
+                        Madrid
+                        to launch a French
+                        startup in Spain. Since then, it has been my mission to bridge the gap between company
+                        objectives
+                        and
+                        their product vision.
+                        Over the last 10 years, I have helped Tech companies, some unicorns, some corporations, develop
+                        better
+                        products. My experience spans every aspect of a Product’s life cycle in industries as varied as
+                        Affiliate Marketing, FinTech, InsurTech, Banking, and SaaS.</p>
+                    <p> I am passionate about building customer-centric product where the focus is both in discovery and
+                        delivery. Starting companies from scratch excites me, but I also aim to add established Product
+                        processes to developed structures.</p>
+                    <p>Through my coaching and mentoring of others, I realized that I want to make it my mission to
+                        impact
+                        and
+                        support as many companies as possible.</p>
+                    <a href="" class="btn btn-dark mt-3">Read More</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- My services -->
+    <section id="service" class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md d-flex">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3"><i class="bi bi-graph-up"></i></div>
+                            <h3 class="card-title mb-3">Consulting</h3>
+                            <p class="card-text"> I partner with companies needing support streamlining its products. As
+                                an
+                                experienced product consultant, I will analyze your company's data, understand
+                                customers'
+                                needs and generate practical solutions</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3"><i class="bi bi-people"></i></div>
+                            <h3 class="card-title mb-3">Company Training</h3>
+                            <p class="card-text"> I provide quality training and engagement for staff and partners</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3"><i class="bi bi-person"></i></div>
+                            <h3 class="card-title mb-3">Individual Coaching</h3>
+                            <p class="card-text"> I provide quality training and engagement for staff and partners</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion  https://getbootstrap.com/docs/5.1/components/accordion/ -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            What is Product Management?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                            totam tempora accusamus modi explicabo accusantium consequatur,
+                            praesentium rem quisquam molestias at quos vero. Officiis ad
+                            velit doloremque at. Dignissimos praesentium necessitatibus
+                            natus corrupti cum consequatur aliquam! Minima molestias iure
+                            quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            What sort of trainings do you offer?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                            totam tempora accusamus modi explicabo accusantium consequatur,
+                            praesentium rem quisquam molestias at quos vero. Officiis ad
+                            velit doloremque at. Dignissimos praesentium necessitatibus
+                            natus corrupti cum consequatur aliquam! Minima molestias iure
+                            quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            What do I need to Know?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                            totam tempora accusamus modi explicabo accusantium consequatur,
+                            praesentium rem quisquam molestias at quos vero. Officiis ad
+                            velit doloremque at. Dignissimos praesentium necessitatibus
+                            natus corrupti cum consequatur aliquam! Minima molestias iure
+                            quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-four">
+                            Can you help me find a job in Product Management?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                            totam tempora accusamus modi explicabo accusantium consequatur,
+                            praesentium rem quisquam molestias at quos vero. Officiis ad
+                            velit doloremque at. Dignissimos praesentium necessitatibus
+                            natus corrupti cum consequatur aliquam! Minima molestias iure
+                            quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-five">
+                            Can I get a Product Manager job without Product Management experience?
+                        </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                            beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                            totam tempora accusamus modi explicabo accusantium consequatur,
+                            praesentium rem quisquam molestias at quos vero. Officiis ad
+                            velit doloremque at. Dignissimos praesentium necessitatibus
+                            natus corrupti cum consequatur aliquam! Minima molestias iure
+                            quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class="p-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center text-white">Testimonials</h2>
+            <p class="lead text-center text-white mb-5">
+                Reviews speak for themselves. Read how companies and individuals were able to achieve their Product
+                goals
+                with my services.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-2">Steve Smith</h3>
+                            <h5 class="mb-3">Product Manager @Facebook</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-2">Steve Smith</h3>
+                            <h5 class="mb-3">Product Manager @Facebook</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-2">Steve Smith</h3>
+                            <h5 class="mb-3">Product Manager @Facebook</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3"
+                                alt="" />
+                            <h3 class="card-title mb-2">Steve Smith</h3>
+                            <h5 class="mb-3">Product Manager @Facebook</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam. eeeeeee
+                                    eeee
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> <a href="#"><i
+                                    class="bi bi-envelope-fill text-dark mx-1"></i></a> eduardo.mignot@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Linkedin:</span> <a href="#"><i
+                                    class="bi bi-linkedin text-dark mx-1"></i></a>
+                            https://www.linkedin.com/in/eduardomignot/
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Medium:</span> <a href="#"><i
+                                    class="bi bi-pen-fill text-dark mx-1"></i></a> https://eduardomignot.medium.com/
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <img src="img/undraw_contact_us.svg" class="img-fluid" alt="Certified Man">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Midnful Product by Eduardo</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and I will get back to you</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="col-form-label">Subject:</label>
+                            <input type="tel" class="form-control" id="subject" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="content" class="col-form-label">What I can help you with?</label>
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
